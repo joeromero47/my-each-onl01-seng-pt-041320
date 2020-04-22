@@ -4,4 +4,5 @@ def my_each(array)
     collection << yield(array[i])
     i = i + 1
   end
+  collection
 end
